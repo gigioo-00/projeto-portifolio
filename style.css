@@ -1,79 +1,55 @@
-* {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0; /* rosa claro */
+    color: #333;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background-color: #f4f4f4;
-    color: #333;
 }
 
 header {
-    background-color: #111;
-    color: white;
     text-align: center;
-    padding: 30px 20px;
+    padding: 30px 10px;
 }
 
 header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 4px solid white;
-    margin-bottom: 15px;
+    border: 3px solid #ff99c8;
 }
 
-nav {
-    margin-top: 15px;
+h1 {
+    margin: 10px 0 5px 0;
+    color: #ff66a3;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #00adb5;
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
 }
 
 section {
-    padding: 50px 20px;
-    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
-.sobre {
-    background-color: white;
+h2 {
+    color: #ff66a3;
+    border-bottom: 2px solid #ff99c8;
+    padding-bottom: 5px;
 }
 
-.projetos {
-    background-color: #eaeaea;
+ul {
+    list-style-type: square;
+    padding-left: 20px;
 }
 
-.contato {
-    background-color: white;
-}
-
-footer {
-    background-color: #111;
-    color: white;
-    text-align: center;
+.project {
+    background-color: #fff0f5;
     padding: 15px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #00adb5;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 15px;
-}
-
-.btn:hover {
-    background-color: #008c94;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
